@@ -12,7 +12,7 @@ $font-family: 'Helvetica Neue', Helvetica, Arial, "Microsoft YaHei", sans-serif;
 
 body {
   color: #333;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 1.5;
   font-family: $font-family;
   -webkit-font-smoothing: antialiased;
@@ -29,6 +29,9 @@ a {
   text-decoration: none;
   color: $color-green;
   @include transition(all .2s ease-in-out);
+}
+h3{
+  font-size: 16px;
 }
 
 .last-modified {
@@ -332,6 +335,10 @@ a {
       margin: 2px;
       padding: 0 3px;
       background-color: #f6f6f6;
+    }
+    .text-decorate{
+      padding-bottom: 4px;
+      border-bottom: 1px solid $color-green;
     }
   }
   .practice {
